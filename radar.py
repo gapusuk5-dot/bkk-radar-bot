@@ -60,8 +60,7 @@ def get_dbz_color(dbz):
 RADAR_RANGE_KM = 60.0
 STEP_KM = 0.5 
 configs = {
-    "Nong Chok": {"url": "https://weather.bangkok.go.th/Images/Radar/radar.gif", "lat": 13.861, "lon": 100.862},
-    "Nong Khaem": {"url": "https://weather.bangkok.go.th/Images/Radar/nkradar.gif", "lat": 13.701, "lon": 100.338}
+    "Suvarnabhumi": {"url": "https://weather.tmd.go.th/svp/svp240_HQ_latest.gif", "lat": 13.693, "lon": 100.752}
 }
 
 m = folium.Map(location=[13.75, 100.5], zoom_start=11, tiles='https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', attr='©CartoDB')
